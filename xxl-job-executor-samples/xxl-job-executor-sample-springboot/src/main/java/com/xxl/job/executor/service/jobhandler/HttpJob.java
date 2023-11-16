@@ -19,8 +19,8 @@ import java.util.Calendar;
 import java.util.Date;
 
 @Component
-public class JDSigninJob {
-    private static Logger logger = LoggerFactory.getLogger(JDSigninJob.class);
+public class HttpJob {
+    private static Logger logger = LoggerFactory.getLogger(HttpJob.class);
 
     @Autowired
     private EMailSender eMailSender;
